@@ -14,6 +14,7 @@
 		A53D5BC619DC613F00ABC239 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53D5BC519DC613F00ABC239 /* Images.xcassets */; };
 		A53D5BC919DC613F00ABC239 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A53D5BC719DC613F00ABC239 /* LaunchScreen.xib */; };
 		A53D5BD519DC613F00ABC239 /* GMNSDateExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53D5BD419DC613F00ABC239 /* GMNSDateExtensionTests.m */; };
+		A53D5BE019DC615F00ABC239 /* GMNSDateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A53D5BDF19DC615F00ABC239 /* GMNSDateExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A53D5BCE19DC613F00ABC239 /* GMNSDateExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMNSDateExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53D5BD319DC613F00ABC239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A53D5BD419DC613F00ABC239 /* GMNSDateExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNSDateExtensionTests.m; sourceTree = "<group>"; };
+		A53D5BDE19DC615F00ABC239 /* GMNSDateExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMNSDateExtension.h; path = ../../../../Desktop/GMNSDateExtension.h; sourceTree = "<group>"; };
+		A53D5BDF19DC615F00ABC239 /* GMNSDateExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMNSDateExtension.m; path = ../../../../Desktop/GMNSDateExtension.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		A53D5BB719DC613F00ABC239 /* GMNSDateExtension */ = {
 			isa = PBXGroup;
 			children = (
+				A53D5BE119DC616300ABC239 /* Library */,
 				A53D5BBC19DC613F00ABC239 /* AppDelegate.h */,
 				A53D5BBD19DC613F00ABC239 /* AppDelegate.m */,
 				A53D5BBF19DC613F00ABC239 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				A53D5BD319DC613F00ABC239 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A53D5BE119DC616300ABC239 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A53D5BDE19DC615F00ABC239 /* GMNSDateExtension.h */,
+				A53D5BDF19DC615F00ABC239 /* GMNSDateExtension.m */,
+			);
+			name = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				A53D5BC119DC613F00ABC239 /* ViewController.m in Sources */,
 				A53D5BBE19DC613F00ABC239 /* AppDelegate.m in Sources */,
+				A53D5BE019DC615F00ABC239 /* GMNSDateExtension.m in Sources */,
 				A53D5BBB19DC613F00ABC239 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GMNSDateExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GMNSDateExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
