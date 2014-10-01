@@ -37,37 +37,55 @@ Determines if an NSDate is today
 
 `+(BOOL) isToday: (NSDate*) date withFormat:(NSString*) format;`
 
+</br>
+
 Determines if an NSDate is yesterday
 
 `+(BOOL) isYesterday: (NSDate*) date withFormat:(NSString*) format;`
+
+</br>
 
 Determines if an NSDate is tomorrow
 
 `+(BOOL) isTomorrow: (NSDate*) date withFormat:(NSString*) format;`
 
+</br>
+
 Get the Tommorrow date
 
 `+(NSDate *) dateTomorrowWithFormat:(NSString*) format;`
+
+</br>
 
 Get the Yesterday date
 
 `+(NSDate *) dateYesterdayWithFormat:(NSString*) format;`
 
+</br>
+
 Convert NSString to NSDate
 
 `+(NSDate*) dateFromString: (NSString*) date withFormat: (NSString*) format;`
+
+</br>
 
 Convert  NSDate to NSString
 
 `+(NSString*) stringFromDate: (NSDate*) date withFormat: (NSString*) format;`
 
+</br>
+
 Get NSdateComponents from NSString
 
 `+(NSDateComponents*) dateComponentsFromString: (NSString*) date withFormat: (NSString*) format;`
 
+</br>
+
 Get NSdateComponents from NSDate
 
 `+(NSDateComponents*) dateComponentsFromDate: (NSDate*) date withFormat: (NSString*) format;`
+
+</br>
 
 Get year, month, day, hour, minute or seconds from NSDate
 
@@ -83,6 +101,8 @@ Get year, month, day, hour, minute or seconds from NSDate
 
 `+(NSInteger) secondComponenetFromDate:(NSDate*) date withFormat: (NSString*) format;`
 
+</br>
+
 
 Get year, month, day, hour, minute or seconds from NSString
 
@@ -97,6 +117,8 @@ Get year, month, day, hour, minute or seconds from NSString
 `+(NSInteger) minuteComponenetFromString:(NSString*) date withFormat: (NSString*) format;`
 
 `+(NSInteger) secondComponenetFromString:(NSString*) date withFormat: (NSString*) format;`
+
+</br>
 
 
 Get difference between two NSDate
