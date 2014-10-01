@@ -28,7 +28,7 @@ But you can also use a standar format with:
 
 or
 
-`[GMNSDateExtension dateFormat:DateFormatEurope]`
+`[GMNSDateExtension dateFormat:DateFormatEuropean]`
 
 
 <h2><b>Methods</b></h2>
