@@ -30,6 +30,22 @@ or
 
 `[GMNSDateExtension dateFormat:DateFormatEuropean]`
 
+</br>
+
+<h2><b>Example to use</b></h2>
+
+Examples to get day component from a generic date or yesterday/tomorrow date:
+
+`NSInteger dayComponent = [GMNSDateExtension dayComponenetFromDate:[NSDate date] withFormat:@"dd-MM-yyyy"];`
+
+`NSDate *tomorrow = [GMNSDateExtension dateTomorrowWithFormat: [GMNSDateExtension dateFormat: DateFormatEuropean]];`
+	
+`NSDate *yesterday = [GMNSDateExtension dateYesterdayWithFormat: [GMNSDateExtension dateFormat: DateFormatEuropean]];`
+
+
+</br>	
+
+
 
 <h2><b>Methods</b></h2>
 
