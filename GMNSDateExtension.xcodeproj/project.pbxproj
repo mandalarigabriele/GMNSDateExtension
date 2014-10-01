@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A53D5BBB19DC613F00ABC239 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53D5BBA19DC613F00ABC239 /* main.m */; };
+		A53D5BBE19DC613F00ABC239 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53D5BBD19DC613F00ABC239 /* AppDelegate.m */; };
+		A53D5BC119DC613F00ABC239 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53D5BC019DC613F00ABC239 /* ViewController.m */; };
+		A53D5BC419DC613F00ABC239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53D5BC219DC613F00ABC239 /* Main.storyboard */; };
+		A53D5BC619DC613F00ABC239 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53D5BC519DC613F00ABC239 /* Images.xcassets */; };
+		A53D5BC919DC613F00ABC239 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A53D5BC719DC613F00ABC239 /* LaunchScreen.xib */; };
+		A53D5BD519DC613F00ABC239 /* GMNSDateExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53D5BD419DC613F00ABC239 /* GMNSDateExtensionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A53D5BCF19DC613F00ABC239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53D5BAD19DC613F00ABC239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53D5BB419DC613F00ABC239;
+			remoteInfo = GMNSDateExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A53D5BB519DC613F00ABC239 /* GMNSDateExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMNSDateExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53D5BB919DC613F00ABC239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53D5BBA19DC613F00ABC239 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A53D5BBC19DC613F00ABC239 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A53D5BBD19DC613F00ABC239 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A53D5BBF19DC613F00ABC239 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A53D5BC019DC613F00ABC239 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A53D5BC319DC613F00ABC239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A53D5BC519DC613F00ABC239 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A53D5BC819DC613F00ABC239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A53D5BCE19DC613F00ABC239 /* GMNSDateExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMNSDateExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53D5BD319DC613F00ABC239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53D5BD419DC613F00ABC239 /* GMNSDateExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNSDateExtensionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53D5BB219DC613F00ABC239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53D5BCB19DC613F00ABC239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A53D5BAC19DC613F00ABC239 = {
+			isa = PBXGroup;
+			children = (
+				A53D5BB719DC613F00ABC239 /* GMNSDateExtension */,
+				A53D5BD119DC613F00ABC239 /* GMNSDateExtensionTests */,
+				A53D5BB619DC613F00ABC239 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A53D5BB619DC613F00ABC239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53D5BB519DC613F00ABC239 /* GMNSDateExtension.app */,
+				A53D5BCE19DC613F00ABC239 /* GMNSDateExtensionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53D5BB719DC613F00ABC239 /* GMNSDateExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A53D5BBC19DC613F00ABC239 /* AppDelegate.h */,
+				A53D5BBD19DC613F00ABC239 /* AppDelegate.m */,
+				A53D5BBF19DC613F00ABC239 /* ViewController.h */,
+				A53D5BC019DC613F00ABC239 /* ViewController.m */,
+				A53D5BC219DC613F00ABC239 /* Main.storyboard */,
+				A53D5BC519DC613F00ABC239 /* Images.xcassets */,
+				A53D5BC719DC613F00ABC239 /* LaunchScreen.xib */,
+				A53D5BB819DC613F00ABC239 /* Supporting Files */,
+			);
+			path = GMNSDateExtension;
+			sourceTree = "<group>";
+		};
+		A53D5BB819DC613F00ABC239 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A53D5BB919DC613F00ABC239 /* Info.plist */,
+				A53D5BBA19DC613F00ABC239 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A53D5BD119DC613F00ABC239 /* GMNSDateExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				A53D5BD419DC613F00ABC239 /* GMNSDateExtensionTests.m */,
+				A53D5BD219DC613F00ABC239 /* Supporting Files */,
+			);
+			path = GMNSDateExtensionTests;
+			sourceTree = "<group>";
+		};
+		A53D5BD219DC613F00ABC239 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A53D5BD319DC613F00ABC239 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53D5BB419DC613F00ABC239 /* GMNSDateExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53D5BD819DC613F00ABC239 /* Build configuration list for PBXNativeTarget "GMNSDateExtension" */;
+			buildPhases = (
+				A53D5BB119DC613F00ABC239 /* Sources */,
+				A53D5BB219DC613F00ABC239 /* Frameworks */,
+				A53D5BB319DC613F00ABC239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMNSDateExtension;
+			productName = GMNSDateExtension;
+			productReference = A53D5BB519DC613F00ABC239 /* GMNSDateExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A53D5BCD19DC613F00ABC239 /* GMNSDateExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53D5BDB19DC613F00ABC239 /* Build configuration list for PBXNativeTarget "GMNSDateExtensionTests" */;
+			buildPhases = (
+				A53D5BCA19DC613F00ABC239 /* Sources */,
+				A53D5BCB19DC613F00ABC239 /* Frameworks */,
+				A53D5BCC19DC613F00ABC239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53D5BD019DC613F00ABC239 /* PBXTargetDependency */,
+			);
+			name = GMNSDateExtensionTests;
+			productName = GMNSDateExtensionTests;
+			productReference = A53D5BCE19DC613F00ABC239 /* GMNSDateExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53D5BAD19DC613F00ABC239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Gabriele Mandalari";
+				TargetAttributes = {
+					A53D5BB419DC613F00ABC239 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A53D5BCD19DC613F00ABC239 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A53D5BB419DC613F00ABC239;
+					};
+				};
+			};
+			buildConfigurationList = A53D5BB019DC613F00ABC239 /* Build configuration list for PBXProject "GMNSDateExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A53D5BAC19DC613F00ABC239;
+			productRefGroup = A53D5BB619DC613F00ABC239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53D5BB419DC613F00ABC239 /* GMNSDateExtension */,
+				A53D5BCD19DC613F00ABC239 /* GMNSDateExtensionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A53D5BB319DC613F00ABC239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53D5BC419DC613F00ABC239 /* Main.storyboard in Resources */,
+				A53D5BC919DC613F00ABC239 /* LaunchScreen.xib in Resources */,
+				A53D5BC619DC613F00ABC239 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53D5BCC19DC613F00ABC239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53D5BB119DC613F00ABC239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53D5BC119DC613F00ABC239 /* ViewController.m in Sources */,
+				A53D5BBE19DC613F00ABC239 /* AppDelegate.m in Sources */,
+				A53D5BBB19DC613F00ABC239 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53D5BCA19DC613F00ABC239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53D5BD519DC613F00ABC239 /* GMNSDateExtensionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A53D5BD019DC613F00ABC239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53D5BB419DC613F00ABC239 /* GMNSDateExtension */;
+			targetProxy = A53D5BCF19DC613F00ABC239 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A53D5BC219DC613F00ABC239 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53D5BC319DC613F00ABC239 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A53D5BC719DC613F00ABC239 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53D5BC819DC613F00ABC239 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A53D5BD619DC613F00ABC239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A53D5BD719DC613F00ABC239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A53D5BD919DC613F00ABC239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GMNSDateExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A53D5BDA19DC613F00ABC239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GMNSDateExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A53D5BDC19DC613F00ABC239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GMNSDateExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMNSDateExtension.app/GMNSDateExtension";
+			};
+			name = Debug;
+		};
+		A53D5BDD19DC613F00ABC239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GMNSDateExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMNSDateExtension.app/GMNSDateExtension";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53D5BB019DC613F00ABC239 /* Build configuration list for PBXProject "GMNSDateExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53D5BD619DC613F00ABC239 /* Debug */,
+				A53D5BD719DC613F00ABC239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53D5BD819DC613F00ABC239 /* Build configuration list for PBXNativeTarget "GMNSDateExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53D5BD919DC613F00ABC239 /* Debug */,
+				A53D5BDA19DC613F00ABC239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A53D5BDB19DC613F00ABC239 /* Build configuration list for PBXNativeTarget "GMNSDateExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53D5BDC19DC613F00ABC239 /* Debug */,
+				A53D5BDD19DC613F00ABC239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A53D5BAD19DC613F00ABC239 /* Project object */;
+}
