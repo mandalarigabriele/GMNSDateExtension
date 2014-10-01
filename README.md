@@ -136,3 +136,8 @@ Get difference between two NSDate
 `+(NSInteger) secondsDifferenceFromDate:(NSDate*) fromDate toDate: (NSDate*) toDate withFormat: (NSString*) format;`
 
 `+(NSString*) dateFormat:(DateFromat) dateformat;`
+
+
+<h2><b>Suggestions</b></h2>
+
+Contatc me to mandalari.gabriele@gmail.com to add other methods
